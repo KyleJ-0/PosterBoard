@@ -1,0 +1,27 @@
+.engagementBarColumn{
+    float: left;
+    width: 33.33%;
+}
+
+.engagementBarContainer:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.engagementBarContainer{
+    background-color:rgb(196, 224, 255);
+    border-radius: 8px;
+}
+
+.engagementBarContentText{
+    text-align: center;
+}
+
+.engagementBarContentImage{
+    display:block;
+    padding-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 16px;
+}
